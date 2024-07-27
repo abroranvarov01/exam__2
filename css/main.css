@@ -1248,7 +1248,7 @@ body {
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
-  background-image: url(../../img/offer__item__icon_2.svg);
+  background-image: url(../img/offer__item__icon_2.svg);
   background-position: center;
   display: inline-block;
   position: absolute;
@@ -1272,7 +1272,7 @@ body {
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
-  background-image: url(../../img/offer__item__icon_3.svg);
+  background-image: url(../img/offer__item__icon_3.svg);
   background-position: center;
   display: inline-block;
   position: absolute;
@@ -1364,7 +1364,7 @@ body {
   .offer__item__title::before {
     width: 64px;
     height: 64px;
-    background-image: url(../../img/offer__item__icon__1.1.svg);
+    background-image: url(../img/offer__item__icon__1.1.svg);
     top: 0%;
     -webkit-transform: translate(0, 15%);
             transform: translate(0, 15%);
@@ -1377,7 +1377,7 @@ body {
   .offer__item__title__2::before {
     width: 64px;
     height: 64px;
-    background-image: url(../../img/offer__item__icon__2.2.svg);
+    background-image: url(../img/offer__item__icon__2.2.svg);
     top: 0%;
     -webkit-transform: translate(0, 15%);
             transform: translate(0, 15%);
@@ -1390,7 +1390,7 @@ body {
   .offer__item__title__3::before {
     width: 64px;
     height: 64px;
-    background-image: url(../../img/offer__item__icon.3.3.svg);
+    background-image: url(../img/offer__item__icon.3.3.svg);
     top: 0%;
     -webkit-transform: translate(0, 15%);
             transform: translate(0, 15%);
@@ -1403,7 +1403,7 @@ body {
   .offer__item__title__4::before {
     width: 64px;
     height: 64px;
-    background-image: url(../../img/offer__item__icon__4.4.svg);
+    background-image: url(../img/offer__item__icon__4.4.svg);
     top: 0%;
     -webkit-transform: translate(0, 15%);
             transform: translate(0, 15%);
@@ -1422,7 +1422,7 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url(../../img/offer__item__icon__5.5.svg);
+    background-image: url(../img/offer__item__icon__5.5.svg);
     top: 0%;
     -webkit-transform: translate(0, 15%);
             transform: translate(0, 15%);
@@ -1535,7 +1535,7 @@ body {
     height: 160px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../../img/offer__item__2itemm__2.svg);
+    background-image: url(../img/offer__item__2itemm__2.svg);
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -1550,7 +1550,7 @@ body {
     height: 160px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../../img/offer__item__2___3icon.svg);
+    background-image: url(../img/offer__item__2___3icon.svg);
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -1565,7 +1565,7 @@ body {
     height: 160px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../../img/offer__item__2__icon__4.svg);
+    background-image: url(../img/offer__item__2__icon__4.svg);
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -1580,7 +1580,7 @@ body {
     height: 160px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../../img/offer__item__2__icon__5.svg);
+    background-image: url(../img/offer__item__2__icon__5.svg);
     display: block;
     margin-right: auto;
     margin-left: auto;
