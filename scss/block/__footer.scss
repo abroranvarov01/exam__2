@@ -1,0 +1,233 @@
+.site__footer {
+  padding-top: 16px;
+}
+.footer__top__box {
+  margin-left: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.footer__top__box__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--05);
+  margin-bottom: 4px;
+}
+.footer__top__block__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  color: var(--03);
+}
+.footer__top__block {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+.footer__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--1);
+}
+.footer__list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.footer__mid__tel {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--1);
+  margin-bottom: 4px;
+}
+.footer__mid__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--06);
+  margin-bottom: 4px;
+}
+.footer__mid__link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--prime);
+  margin-bottom: 16px;
+}
+.footer__mid__list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.footer__mid__list_2 {
+  display: none;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.footer_mid__text_2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--1);
+  margin-bottom: 8px;
+}
+.footer_mid__text_3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--1);
+  margin-bottom: 24px;
+}
+.footer__btm {
+  box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.footer__btm__item_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--09);
+}
+.footer__btm__item__icon {
+  color: var(--06);
+}
+.footer__btm__item {
+  text-align: center;
+  &:hover {
+    .footer__btm__item__icon {
+      color: var(--prime);
+    }
+    .footer__btm__item_text {
+      color: var(--prime);
+    }
+  }
+}
+.footer__btm__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  align-items: center;
+}
+.footer__logo_2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer__top__block {
+    width: 404px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .footer__top__block__text {
+    text-align: start;
+    padding-left: 57px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__logo_2 {
+    display: inline-block;
+  }
+  .footer__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .footer_mid__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .footer__mid__list {
+    display: none;
+  }
+  .footer__mid__list_2 {
+    align-items: center;
+    display: flex;
+    margin: 0;
+  }
+  .footer__mid__text__box {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .footer__mid__link {
+    margin-bottom: 33px;
+  }
+  .footer__btm__item__link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__btm {
+    display: none;
+  }
+  .footer__mid__list_2 {
+    display: none;
+  }
+  .footer__mid__list {
+    display: flex;
+  }
+  .footer__list {
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__mid__text__box {
+    display: block;
+    margin-bottom: 11px;
+  }
+  .footer_mid__top {
+    margin-bottom: 0;
+  }
+  .footer__mid__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    gap: 24px;
+  }
+  .footer__mid__link {
+    margin: 0;
+  }
+  .footer__mid__list {
+    margin: 0;
+  }
+  .footer__top__box {
+    display: block;
+  }
+  .footer__top__block__text {
+    margin-top: 24px;
+    padding: 0;
+  }
+  .footer__logo_2 {
+    margin-bottom: 27px;
+  }
+  .footer__top__box__text {
+    margin-bottom: 8px;
+  }
+  .footer__top__box {
+    margin-left: 0;
+  }
+  .footer__mid__tel {
+    font-weight: 500;
+    font-size: 40px;
+  }
+}
